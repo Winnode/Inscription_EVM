@@ -1,0 +1,27 @@
+{
+  "name": "emv-inscription-mint",
+  "version": "1.0.0",
+  "description": "Program Otomatis Mint yang Kompatibel dengan Jaringan EVM untuk Insripsi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.32.1",
+    "@cosmjs/stargate": "^0.32.1",
+    "chalk": "^4.1.2",
+    "cosmjs-types": "^0.9.0",
+    "csv-parse": "^5.5.3",
+    "csv-parser": "^3.0.0",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.64.0",
+    "readline-sync": "^1.4.10",
+    "web3": "^4.3.0"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
